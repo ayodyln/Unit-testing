@@ -8,11 +8,11 @@ const {
 } = require("./index")
 
 test("Finding the Sum of 5 + 10", () => {
-  expect(Sum([5, 10])).toBe(15)
+  expect(Sum(5, 10)).toBe(15)
 })
 
 test("Finding the Difference between 10 and 7", () => {
-  expect(Subtract(10, 7)).toBe(2)
+  expect(Subtract(10, 7)).toBe(3)
 })
 
 test("Finding the Product of 20 and 3", () => {

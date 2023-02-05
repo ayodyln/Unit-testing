@@ -1,14 +1,14 @@
-const Sum = () => {}
+const Sum = (a, b) => a + b
 
-const Subtract = () => {}
+const Subtract = (a, b) => a - b
 
-const Mulitply = () => {}
+const Mulitply = (a, b) => a * b
 
-const Divide = () => {}
+const Divide = (a, b) => a / b
 
-const Squared = () => {}
+const Squared = (num) => Math.sqrt(num)
 
-const CubedRoot = () => {}
+const CubedRoot = (num) => Math.cbrt(num)
 
 module.exports = {
   Sum,
